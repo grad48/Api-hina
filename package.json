@@ -1,1 +1,15 @@
 
+{
+  "name": "deepai-image-enhancer",
+  "version": "1.0.0",
+  "description": "Simple server to enhance images using DeepAI API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5"
+  }
+}
